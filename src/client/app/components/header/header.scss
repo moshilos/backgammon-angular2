@@ -1,0 +1,9 @@
+app-header{
+  display: block;
+  transition-property: background-color, color;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-out;
+  &:hover{
+    background-color: #00b3ee;
+  }
+}
